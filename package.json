@@ -4,7 +4,8 @@
   "description": "A simple tic tac toe game",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run open",
+    "open": "open index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/shaangontia/tic-tac-toe/issues"
   },
-  "homepage": "https://github.com/shaangontia/tic-tac-toe#readme"
+  "homepage": "https://github.com/shaangontia/tic-tac-toe#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
 }

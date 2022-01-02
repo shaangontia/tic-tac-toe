@@ -84,8 +84,9 @@ function handleResultValidation() {
     }
     /* 
     We will check weather there are any values in our game state array 
-    that are still not populated with a player sign
+    that are still not populated with a player sign.
     */
+
     let roundDraw = !gameState.includes("");
     if (roundDraw) {
         statusDisplay.innerHTML = drawMessage();
